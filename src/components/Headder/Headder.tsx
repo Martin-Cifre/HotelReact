@@ -17,9 +17,12 @@ export function Headder() {
 
         <div className={styles.header}>
           <div className={styles.logo}>
-            <p className={styles.logoHotel}>Hotel</p>
-            <p className={styles.logoParaiso}>Paraiso</p>
+            <a href="/">
+              <p className={styles.logoHotel}>Hotel</p>
+              <p className={styles.logoParaiso}>Paraiso</p>
+            </a>
           </div>
+
           <div className={styles.links}>
             <ul>
               <li>Quienes Somos</li>

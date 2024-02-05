@@ -29,6 +29,11 @@
     cursor: pointer;
 }
 
+.logo a, .logo a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .logoHotel {
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
