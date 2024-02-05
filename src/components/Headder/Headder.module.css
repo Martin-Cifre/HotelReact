@@ -66,4 +66,10 @@
     cursor: pointer;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     -webkit-text-stroke: 0.5px rgb(129, 129, 129);
+    transition: 0.4s;
+}
+
+.links li:hover {
+    color: var(--color-gold);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
 }
