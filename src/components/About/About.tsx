@@ -5,13 +5,13 @@ import styles from "./About.module.css";
 export const About = () => {
   return (
     <section>
-      <div>
+      <div className={styles.container}>
         <img
           className={styles.img}
           src={getImgUrl("About/About.png")}
           alt="About Hotel Paraiso"
         />
-        <div>
+        <div className={styles.containerTxt}>
           <h2>Hotel Paraiso</h2>
           <p>
             Ubicado en una isla paradisiaca de ensueño, el Hotel Paraíso emerge
