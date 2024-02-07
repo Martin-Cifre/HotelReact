@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Headder from './components/Headder/Headder.tsx';
 import Home from './components/Home/Home.tsx';
 import { About } from './components/About/About.tsx';
+import { Location } from './components/Location/Location.tsx';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -10,5 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Headder />
     <Home />
     <About />
+    <Location />
   </React.StrictMode>,
 )

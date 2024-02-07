@@ -26,6 +26,7 @@ export function Headder() {
           <div className={styles.links}>
             <ul>
               <li>Quienes Somos</li>
+              <li>Ubicacion</li>
               <li>Habitaciones</li>
               <li>Contacto</li>
             </ul>

@@ -9,13 +9,14 @@
 }
 
 .img{
-    width: 30%;
-    height: 30%;
-    transition: 0.3s;
+    width: 40%;
+    height: 40%;
+    transition: 1s;
+    border-radius: 100%;
 }
 
 .img:hover{
-    width: 35%
+    border-radius: 25px;
 }
 
 .containerTxt{
