@@ -1,7 +1,36 @@
-/*
-.container{}
-.img{}
-.containerTxt{}
-.containerTxt h2{}
-.containerTxt p{}
-*/
+@import "../../vars.css";
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 30%;
+    height: 30%;
+    transition: 0.3s;
+}
+
+.img:hover{
+    width: 35%
+}
+
+.containerTxt{
+    width: 40%;
+}
+.containerTxt h2{
+    font-family: var(--font-lora);
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--color-gold);
+}
+
+
+.containerTxt p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+}
