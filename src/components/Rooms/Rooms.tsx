@@ -9,7 +9,7 @@ export const Rooms = () => {
       <div className={styles.items}>
         <div className={styles.item}>
           <img src={getImgUrl("Rooms/WiFi.png")} alt="Icono WiFi" />
-          <p>Wifi Gratuito</p>
+          <p>Wifi</p>
         </div>
 
         <div className={styles.item}>

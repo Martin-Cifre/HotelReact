@@ -16,17 +16,16 @@
 .items {
     display: flex;
     gap: 25px;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 .item {
     background-color: var(--color-secondary);
-    width: 5vw;
-    height: 5vw;
-    padding: 15px;
-    border-radius: 15px;
+    width: 100PX;
+    height: 100PX;
+    padding: 20px;
+    border-radius: 25%;
     transition: 0.8s;
 }
 
