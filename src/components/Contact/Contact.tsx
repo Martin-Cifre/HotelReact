@@ -18,8 +18,9 @@ export const Contact = () => {
             <br/>
           
           <textarea id="message" name="message" placeholder="Mensaje"></textarea>
-
-          <button type="submit">Enviar</button>
+             <br/>
+          
+          <button type="button">Enviar</button>
         </form>
       </div>
     </footer>
