@@ -10,14 +10,14 @@ export const Contact = () => {
         <h1 className={styles.title}>Contactanos</h1>     
 
         <form className={styles.form}>
-          <label htmlFor="name">Nombre:</label>
-          <input type="text" id="name" name="name" />
+          
+          <input type="text" id="name" name="name" placeholder="Nombre"/>
 
-          <label htmlFor="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" />
+          
+          <input type="email" id="email" name="email" placeholder="Correo electronico"/>
             <br/>
-          <label htmlFor="message">Mensaje:</label>
-          <textarea id="message" name="message"></textarea>
+          
+          <textarea id="message" name="message" placeholder="Mensaje"></textarea>
 
           <button type="submit">Enviar</button>
         </form>
