@@ -1,1 +1,21 @@
-@import "../../vars.css"
+@import "../../vars.css";
+
+.container{
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.imgBg {
+    margin-left: -100px;
+    margin-right: -100px;
+    background-image: url(../../../public/assets/Contact/ripples.png);
+    background-repeat: repeat;
+    background-size: auto;
+    overflow: hidden;
+  /* Otros estilos necesarios */
+}
+
+.title {
+    margin-top: 25px;
+    font-family: var(--font-lora);
+}
