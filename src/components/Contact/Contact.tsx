@@ -31,6 +31,7 @@ export const Contact = () => {
 
         <div className={styles.linea} />
 
+        
         <div className={styles.redes}>
           <div>
             <img src={getImgUrl("/Contact/instagram.png")} alt="" />
