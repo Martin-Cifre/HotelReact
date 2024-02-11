@@ -25,10 +25,18 @@ export function Headder() {
 
           <div className={styles.links}>
             <ul>
-              <li>Quienes Somos</li>
-              <li>Ubicacion</li>
-              <li>Habitaciones</li>
-              <li>Contacto</li>
+              <li>
+                <a href="/#About">Quienes Somos</a>
+              </li>
+              <a href="/#Location">
+                <li>Ubicacion</li>
+              </a>
+              <a href="/Habitaciones">
+                <li>Habitaciones</li>
+              </a>
+              <a href="/#Contact">
+                <li>Contacto</li>
+              </a>
             </ul>
           </div>
         </div>

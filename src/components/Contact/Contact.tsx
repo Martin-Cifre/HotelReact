@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (
-    <footer className={styles.container}>
+    <footer className={styles.container} id="Contact">
       <div className={styles.imgBg}>
         <h1 className={styles.title}>Contactanos</h1>
 

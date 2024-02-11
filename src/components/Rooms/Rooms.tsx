@@ -4,7 +4,7 @@ import { getImgUrl } from "../../utils.js";
 
 export const Rooms = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="Rooms">
       <h2 className={styles.title}>Amenities</h2>
       <div className={styles.items}>
         <div className={styles.item}>

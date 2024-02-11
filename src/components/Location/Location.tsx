@@ -4,7 +4,7 @@ import styles from "./Location.module.css";
 
 export const Location = () => {
   return (
-    <section>
+    <section id="Location">
       <div className={styles.container}>
         <div className={styles.containerTxt}>
           <h2>Conoce Nassau</h2>
