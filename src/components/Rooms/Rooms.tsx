@@ -42,7 +42,7 @@ export const Rooms = () => {
       </div>
       <a className={styles.link}
         href="/habitaciones">
-        <h4 className={styles.rooms}>Mira las habitaciones</h4>
+        Mira las habitaciones
       </a>
     </section>
   );
