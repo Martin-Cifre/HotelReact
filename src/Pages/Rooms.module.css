@@ -1,0 +1,17 @@
+@import "../vars.css";
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+}
+
+.title{
+    margin-top: 25px;
+    margin-left: 5%;
+    font-family: var(--font-lora);
+    color: var(--color-gold);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
