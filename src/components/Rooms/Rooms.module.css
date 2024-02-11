@@ -46,6 +46,9 @@
     font-size: 90%;
 }
 
+.link {
+    text-decoration: none;
+}
 
 .rooms {
     display: flex;

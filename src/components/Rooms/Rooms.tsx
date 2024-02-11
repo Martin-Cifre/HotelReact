@@ -13,8 +13,7 @@ export const Rooms = () => {
         </div>
 
         <div className={styles.item}>
-          <img src={getImgUrl("Rooms/RoomS.png")}
-            alt="Icono Room Service" />
+          <img src={getImgUrl("Rooms/RoomS.png")} alt="Icono Room Service" />
           <p>Room Service</p>
         </div>
 
@@ -41,8 +40,10 @@ export const Rooms = () => {
           <p>Shows exclusivos</p>
         </div>
       </div>
-
-      <h4 className={styles.rooms}>Mira las habitaciones</h4>
+      <a className={styles.link}
+        href="/habitaciones">
+        <h4 className={styles.rooms}>Mira las habitaciones</h4>
+      </a>
     </section>
   );
 }
