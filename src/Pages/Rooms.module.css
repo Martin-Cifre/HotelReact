@@ -22,3 +22,26 @@
     width: 50%;
     margin-left: 5%;
 }
+
+.roomContainer{
+    display: flex;
+    background-color: white;
+    color: var(--color-primary);
+}
+
+.roomImg{
+    width: 40%;
+    padding: 1vw;
+}
+
+/*.detail{}*/
+
+.detail h3{
+ font-family: var(--font-roboto);   
+}
+
+/*
+.parrafo {}
+.precio {}
+.button {}
+*/
