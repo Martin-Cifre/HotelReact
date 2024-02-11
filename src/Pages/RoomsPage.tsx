@@ -9,6 +9,7 @@ export const RoomsPage = () => {
 
       <section className={styles.container}>
         <h2 className={styles.title}>Nuestras Habitaciones</h2>
+        <div className={styles.division}></div>
       </section>
     </main>
   );
