@@ -86,8 +86,14 @@
     width: 60%;
     margin-top: 20px;
     margin-bottom: 70px;
+    
 }
 
 .redes div img {
     width: 40px;
+    cursor: pointer;
+}
+
+.redes div p {
+    cursor: pointer;
 }
