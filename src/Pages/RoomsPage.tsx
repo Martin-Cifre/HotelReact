@@ -1,11 +1,12 @@
 //import React from 'react'
 import Headder from "../components/Headder/Headder"
 import styles from "./Rooms.module.css";
+import { Footer } from "../components/Footer/footer";
 import { getImgUrl } from "../utils";
 
 export const RoomsPage = () => {
   return (
-    <main>
+    <main className={styles.gradient}>
       <Headder />
 
       <section className={styles.container}>
@@ -114,6 +115,7 @@ export const RoomsPage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
