@@ -33,6 +33,7 @@ export const RoomsPage = () => {
           </div>
         </div>
 
+        
         <div className={styles.roomContainer}>
           <img
             className={styles.roomImg}
