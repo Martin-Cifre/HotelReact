@@ -1,8 +1,8 @@
 @import "../vars.css";
 
 .container{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 150px;
 }
 
@@ -24,24 +24,57 @@
 }
 
 .roomContainer{
+    margin-top: 20px;
     display: flex;
+    flex-direction: row;
     background-color: white;
     color: var(--color-primary);
+    border-radius: 20px;
 }
 
 .roomImg{
-    width: 40%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
     padding: 1vw;
+    transition: 0.3s;
 }
 
-/*.detail{}*/
+
+.detail{
+    padding: 25px;
+}
 
 .detail h3{
- font-family: var(--font-roboto);   
+ font-family: var(--font-roboto);
+ font-weight: 500;
+ font-size: 25px;
 }
 
-/*
-.parrafo {}
-.precio {}
-.button {}
-*/
+.parrafo {
+    font-family: var(--font-roboto);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.precio {
+    padding: 5px;
+    font-family: var(--font-roboto);
+    font-weight: 600;
+    font-size: 30px;
+    color: grey;
+    text-align: right;
+}
+
+.buttonLocation{
+    text-align: center;
+}
+.button {
+    border: none;
+    background-color: var(--color-gold);
+    font-family: var(--font-roboto);
+    font-weight: 300;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -21,13 +21,101 @@ export const RoomsPage = () => {
           <div className={styles.detail}>
             <h3>Mini Clasic</h3>
             <p className={styles.parrafo}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae recusandae facilis eum distinctio, natus consequatur nisi aliquam alias, modi atque voluptatem adipisci est. Numquam eveniet molestias ipsa veritatis reiciendis?
+              Una acogedora guarida de comodidad, perfecta para escapadas
+              rápidas y momentos íntimos en el paraíso tropical de Nasau.
+              Equipada con todo lo esencial para una estancia confortable y
+              placentera.
             </p>
-            <p className={styles.precio}> USD 70-</p>
-            <button className={styles.button}>Reservar</button>
+            <p className={styles.precio}> USD 80-</p>
+            <div className={styles.buttonLocation}>
+              <button className={styles.button}>Reservar</button>
+            </div>
           </div>
         </div>
 
+        <div className={styles.roomContainer}>
+          <img
+            className={styles.roomImg}
+            src={getImgUrl("RoomSite/miniClasic.jpg")}
+            alt="imagen Mini Clasic"
+          />
+          <div className={styles.detail}>
+            <h3>Mini Clasic</h3>
+            <p className={styles.parrafo}>
+              Una acogedora guarida de comodidad, perfecta para escapadas
+              rápidas y momentos íntimos en el paraíso tropical de Nasau.
+              Equipada con todo lo esencial para una estancia confortable y
+              placentera.
+            </p>
+            <p className={styles.precio}> USD 80-</p>
+            <div className={styles.buttonLocation}>
+              <button className={styles.button}>Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.roomContainer}>
+          <img
+            className={styles.roomImg}
+            src={getImgUrl("RoomSite/miniClasic.jpg")}
+            alt="imagen Mini Clasic"
+          />
+          <div className={styles.detail}>
+            <h3>Mini Clasic</h3>
+            <p className={styles.parrafo}>
+              Una acogedora guarida de comodidad, perfecta para escapadas
+              rápidas y momentos íntimos en el paraíso tropical de Nasau.
+              Equipada con todo lo esencial para una estancia confortable y
+              placentera.
+            </p>
+            <p className={styles.precio}> USD 80-</p>
+            <div className={styles.buttonLocation}>
+              <button className={styles.button}>Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.roomContainer}>
+          <img
+            className={styles.roomImg}
+            src={getImgUrl("RoomSite/miniClasic.jpg")}
+            alt="imagen Mini Clasic"
+          />
+          <div className={styles.detail}>
+            <h3>Mini Clasic</h3>
+            <p className={styles.parrafo}>
+              Una acogedora guarida de comodidad, perfecta para escapadas
+              rápidas y momentos íntimos en el paraíso tropical de Nasau.
+              Equipada con todo lo esencial para una estancia confortable y
+              placentera.
+            </p>
+            <p className={styles.precio}> USD 80-</p>
+            <div className={styles.buttonLocation}>
+              <button className={styles.button}>Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.roomContainer}>
+          <img
+            className={styles.roomImg}
+            src={getImgUrl("RoomSite/miniClasic.jpg")}
+            alt="imagen Mini Clasic"
+          />
+          <div className={styles.detail}>
+            <h3>Mini Clasic</h3>
+            <p className={styles.parrafo}>
+              Una acogedora guarida de comodidad, perfecta para escapadas
+              rápidas y momentos íntimos en el paraíso tropical de Nasau.
+              Equipada con todo lo esencial para una estancia confortable y
+              placentera.
+            </p>
+            <p className={styles.precio}> USD 80-</p>
+            <div className={styles.buttonLocation}>
+              <button className={styles.button}>Reservar</button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
