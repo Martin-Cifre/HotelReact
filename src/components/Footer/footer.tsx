@@ -6,7 +6,7 @@ export function Footer() {
       <div className={styles.container}>
         <div className={styles.footerContent}>
           <div className={styles.disclaimer}>
-            <p>© 2024 Nombre del Hotel. Todos los derechos reservados.</p>
+            <p>© 2024 Hotel Paraiso. Todos los derechos reservados.</p>
             <p>
               Las tarifas están sujetas a cambios sin previo aviso. Los precios
               pueden variar según la temporada y la disponibilidad. Por favor,
@@ -15,9 +15,9 @@ export function Footer() {
             </p>
           </div>
           <div className={styles.contactInfo}>
-            <p>Dirección: [Dirección del Hotel], Nasau, Bahamas</p>
-            <p>Teléfono: [Número de Teléfono]</p>
-            <p>Email: info@hotel.com</p>
+            <p>Dirección: <i>callefalsa 123</i>, Nasau, Bahamas</p>
+            <p>Teléfono: <i>12-1234-5678</i></p>
+            <p>Email: info@usuariohotel.com</p>
           </div>
         </div>
       </div>
