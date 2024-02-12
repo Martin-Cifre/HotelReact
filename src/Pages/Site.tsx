@@ -5,6 +5,7 @@ import { About } from "../components/About/About";
 import { Location } from "../components/Location/Location";
 import { Rooms } from "../components/Rooms/Rooms";
 import { Contact } from "../components/Contact/Contact"; 
+import { Footer } from "../components/Footer/footer";
 
 export const Site = () => {
   return (
@@ -15,6 +16,7 @@ export const Site = () => {
       <Location />
       <Rooms />
       <Contact />
+      <Footer />
     </main>
   );
 }
