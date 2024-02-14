@@ -27,6 +27,8 @@ export const About = () => {
             de este paraíso terrenal.
           </p>
         </div>
+
+        <div className={styles.line}></div>
       </div>
     </section>
   );

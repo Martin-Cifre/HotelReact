@@ -6,6 +6,7 @@
     padding: 15%;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: -250px;
 }
 
 .img{
@@ -36,12 +37,30 @@
     line-height: 1.5;
 }
 
+.line{
+    margin-top: 50px;
+    height: 1px;
+    width: 60%;
+    background-color: var(--color-gold);
+    display: none;
+
+}
+
 @media screen and (max-width: 830px) {
+
+    .line{
+        display: block;
+    }
+
+    .containerTxt{
+    width: 80%;
+    }
 
     .container{
         margin-top: 50px;
         padding: 5%;
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .img:hover{

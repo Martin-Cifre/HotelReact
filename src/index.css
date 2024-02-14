@@ -1,5 +1,5 @@
 :root {
-  background-color: rgb(3, 48, 85);
+  background-image: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
   color: white;
   font-family: Helvetica, sans-serif;
   text-decoration: none;

@@ -43,7 +43,7 @@
 @media screen and (max-width: 830px) {
 
     .container{
-        margin-top: 50px;
+        margin-top: 0px;
         padding: 5%;
         flex-direction: column;
     }
@@ -52,4 +52,8 @@
         display: none;
         padding: 5%;
     }
+
+    .containerTxt{
+    width: 80%;
+}
 }

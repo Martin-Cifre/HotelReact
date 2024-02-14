@@ -90,4 +90,9 @@
     .roomContainer{
         flex-direction: column;
     }
+
+    .container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 }
