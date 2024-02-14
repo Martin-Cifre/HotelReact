@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { getImgUrl } from "../../utils.js";
 import styles from "./Headder.module.css";
 
 export function Headder() {
-  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header>
       <div>
@@ -24,19 +22,10 @@ export function Headder() {
           </div>
 
           <div className={styles.links}>
-            <img
-              className={styles.menuBtn}
-              src={
-                menuOpen
-                  ? getImgUrl("headder/close.png")
-                  : getImgUrl("headder/desplegable.png")
-              }
-              alt="boton menu"
-              onClick={() => setMenuOpen(!menuOpen)}
-            />
+            
             <ul
-              className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-              onClick={() => setMenuOpen(false)}
+              className={`${styles.menuItems} `}
+              
             >
               <li>
                 <a href="/#About">Quienes Somos</a>
