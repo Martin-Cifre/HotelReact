@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 830px) {
     .roomContainer{
-        flex-direction: column;
+    flex-direction: column;   
     }
 
     .container{

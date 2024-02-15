@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+## Proyecto - Hotel Paraíso
+Hotel Paraíso es un hotel de fantasía ubicado en Nassau, donde se combina la elegancia con la calidad para ofrecerte una experiencia única. Con una ubicación privilegiada en el corazón de Nassau, nuestro hotel te invita a sumergirte en un mundo de lujo y comodidad.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Diseño y Estilo
+El azul profundo simboliza la serenidad del océano caribeño que rodea nuestras instalaciones, mientras que el dorado evoca el lujo y la opulencia que caracterizan la experiencia de dicho hotel.
 
-Currently, two official plugins are available:
+## Objetivo del Proyecto
+El objetivo principal de este proyecto es mostrar mis habilidades como desarrollador web Full Stack Junior mediante el uso de React. Utilizo rutas para la navegación y estilos CSS para la presentación.
+Sobre el Proyecto 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre el Autor
+Me llamo Martin Cifre, un apasionado desarrollador web Full Stack Junior en busca de nuevas oportunidades laborales. Este proyecto es un ejemplo de mi trabajo y mis habilidades.
 
-## Expanding the ESLint configuration
+## En busca de Oportunidades
+Estoy abierto a oportunidades laborales y en busca de trabajo para seguir creciendo profesionalmente. Si estás interesado en mi trabajo o tienes alguna oportunidad disponible, ¡no dudes en contactarme!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
