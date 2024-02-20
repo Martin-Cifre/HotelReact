@@ -139,3 +139,16 @@
 }
 
 }
+
+/*Media Query Iphone*/
+@media screen and (max-width: 420px) {
+
+    .header{
+        flex-direction: column;
+    }
+
+        .links ul{ 
+        display: none;
+}
+
+}

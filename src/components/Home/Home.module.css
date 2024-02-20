@@ -16,3 +16,18 @@
     text-align: center;
     font-family: var(--font-roboto);
 }
+
+/*Media Query Iphone*/
+@media screen and (max-width: 420px) {
+    .home{
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .text{
+        font-size: 15vw;
+    }
+    
+
+}
